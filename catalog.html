@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>СРЕДСТВА ДЛЯ УХОДА</title>
+    <title>Средства для ухода</title>
   </head>
   <body>
     <header class="main-header">
@@ -13,133 +13,132 @@
          <nav class="main-navigation">
           <ul>
             <li>
-              <a href="#">ИНФОРМАЦИЯ</a>
+              <a href="#">Информация</a>
             </li>
             <li>
-              <a href="#">НОВОСТИ</a>
+              <a href="#">Новости</a>
             </li>
             <li>
-              <a href="#">ПРАЙС-ЛИСТ</a>
+              <a href="#">Прайс-лист</a>
             </li>
             <li>
-              <a href="#">МАГАЗИН</a>
+              <a href="#">Магазин</a>
             </li>
             <li>
-              <a href="#">КОНТАКТЫ</a>
+              <a href="#">Контакты</a>
             </li>
           </ul>
          </nav>
         <div class="user-block">
-          <a class="login" href="#">ВХОД</a>
+          <a class="login" href="#">Вход</a>
         </div>
       </div>
     </header>
      <main class="container">
        <div class="container-navigation"> 
-        <h1>СРЕДСТВА ДЛЯ УХОДА</h1>
+        <h1>Средства для ухода</h1>
          <ul class="container-breadcrumbs">
             <li>
-              <a href="#">ГЛАВНАЯ</a>
+              <a href="#">Главная</a>
             </li>
      	     <li>
-       	      <a href="#">МАГАЗИН</a>
+       	      <a href="#">Магазин</a>
             </li>
              <li>
-       	      <a href="#">СРЕДСТВА ДЛЯ УХОДА</a>
+       	      <a href="#">Средства для ухода</a>
             </li>
          </ul>
         </div>
     <section class="content">
-      <h2 class="content-index">ПРОИЗВОДИТЕЛИ</h2>
+      <h2 class="content-index">Производители</h2>
         <form class="content-producers" action="#" method="post">
-          <label>
-           <input type="checkbox" name="items" value="Baxter" checked>Baxter of california
-          </label><br>
-          <label>
-           <input type="checkbox" name="items" value="Mrnatty">Mr NATTY
-          </label><br>
-          <label>
-          <input type="checkbox" name="items" value="Suavecito" checked="">SUAVECITO
-          </label><br>
-          <label>
-           <input type="checkbox" name="items" value="Malin">MALIN+GOETZ
-          </label><br>
-          <label>
-           <input type="checkbox" name="items" value="Murrays">MURRAY'S
-          </label><br>
-          <label>
-           <input type="checkbox" name="items" value="American" checked>AMERICAN CREW
-          </label><br>
+         <fieldset class="content-check">
+           <input type="checkbox" name="items" value="Baxter" id="Baxter" checked>
+           <input type="checkbox" name="items" value="Mrnatty" id="Mrnatty">
+           <input type="checkbox" name="items" value="Suavecito" id="Suavecito" checked>
+           <input type="checkbox" name="items" value="Malin" id="Malin">
+           <input type="checkbox" name="items" value="Murrays" id="Murrays">
+           <input type="checkbox" name="items" value="American" id="American" checked>
+           <label for="Baxter">Baxter of california</label>
+           <label for="Mrnatty">Mr NATTY</label>
+           <label for="Malin">MALIN+GOETZ</label>
+           <label for="Murrays">MURRAY'S</label>
+           <label for="American">AMERICAN CREW</label>
+         </fieldset>
+           <h2 class="content-index">Группы товаров</h2>
+         <fieldset class="content-product">
+           <input type="radio" name="product" value="Shave" id="Shave">
+           <input type="radio" name="product" value="Care" id="Care" checked>
+           <input type="radio" name="product" value="Accessories" id="Accessories">
+           <label for="Shave">Бритвенные принадлежности</label>
+           <label for="Care">Средства для ухода</label>
+           <label for="Accessories">Аксессуары</label>
+         </fieldset>
         </form>
-     </section>
-     <section class="content">
-       <h2 class="content-index">ГРУППЫ ТОВАРОВ</h2>
-        <form class="content-products" action="#" method="post">
-        <label>
-        <input type="radio" name="product" value="Shave">Бритвенные принадлежности
-        </label><br>
-        <label>
-        <input type="radio" name="product" value="Care" checked="">Средства для ухода
-        </label><br>
-        <label>
-        <input type="radio" name="product" value="Accessories">Аксессуары
-        </label><br>
         <a class="btn" href="#">Показать</a>
      </section>
      <div class="product">
        <article class="product-item">
        	<div class="product-image">
        	  <img src="http://placehold.it/150x100">
-       	 </div>
+       	</div>
        	 <p>Набор для путешествий "BAXTER OF CALIFORNIA"</p>
-       	 <span>2 900 РУБ.</span>
-       	 <a class="btn" href="#">Купить</a>
+       	<div class="price">2 900 РУБ.
+       	  <a class="btn" href="#">Купить</a>
+        </div>
        </article>
        <article class="product-item">
        	<div class="product-image">
        	  <img src="http://placehold.it/150x100">
-       	 </div>
+       	</div>
        	 <p>Увлажняющий кондиционер "BAXTER OF CALIFORNIA"</p>
-       	 <span>750 РУБ.</span>
-       	 <a class="btn" href="#">Купить</a>
+       	<div class="price">750 РУБ.
+       	  <a class="btn" href="#">Купить</a>
+        </div>
        </article>
        <article class="product-item">
        	<div class="product-image">
        	  <img src="http://placehold.it/150x100">
-       	 </div>
+       	</div>
        	 <p>Гель для волос "SUAVECITO</p>
-       	 <span>290 РУБ.</span>
-       	 <a class="btn" href="#">Купить</a>
+       	<div class="price">290 РУБ.
+       	  <a class="btn" href="#">Купить</a>
+         </div>
        </article>
        <article class="product-item">
        	<div class="product-image">
        	  <img src="http://placehold.it/150x100">
-       	 </div>
+       	</div>
        	 <p>Глина для укладки волос "AMERICAN CREW"</p>
-       	 <span>500 РУБ.</span>
-       	 <a class="btn" href="#">Купить</a>
+       	<div class="price">500 РУБ.
+       	  <a class="btn" href="#">Купить</a>
+        </div>
        </article>
        <article class="product-item">
        	<div class="product-image">
        	  <img src="http://placehold.it/150x100">
-       	 </div>
+       	</div>
        	 <p>Гель для волос "AMERICAN CREW"</p>
-       	 <span>300 РУБ.</span>
-       	 <a class="btn" href="#">Купить</a>
+       	<div class="price">300 РУБ.
+       	  <a class="btn" href="#">Купить</a>
+        </div>
        </article>
        <article class="product-item">
        	<div class="product-image">
        	  <img src="http://placehold.it/150x100">
-       	 </div>
+       	</div>
        	 <p>Набор для бритья "BAXTER OF CALIFORNIA"</p>
-       	 <span>3 900 РУБ.</span>
-       	 <a class="btn" href="#">Купить</a>
+        <div class="price">3 900 РУБ.
+       	   <a class="btn" href="#">Купить</a>
+        </div>
        </article>
      </div>
-     <a class="btn" href="#">1</a>
-     <a class="btn" href="#">2</a>
-     <a class="btn" href="#">3</a>
-     <a class="btn" href="#">4</a>
+     <div class="page-number">
+       <a class="btn" href="#">1</a>
+       <a class="btn" href="#">2</a>
+       <a class="btn" href="#">3</a>
+       <a class="btn" href="#">4</a>
+     </div>
     </main>
     <footer class="main-footer">
       <div class="container">

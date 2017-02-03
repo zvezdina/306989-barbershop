@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Средства для ухода</title>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
       <div class="container">
        <div class="logo">
-        <img src="http://placehold.it/150x100">
+        <img src="img/logo.png" width="111" height="24" alt="Барбершоп">
        </div>
          <nav class="main-navigation">
           <ul>
@@ -31,6 +32,7 @@
           </ul>
          </nav>
         <div class="user-block">
+        <img src="img/exit.png" width="18" height="16" alt="Вход"><!--сделала img, но не уверена-->
           <a class="login" href="#">Вход</a>
         </div>
       </div>
@@ -55,24 +57,25 @@
          <fieldset class="content-check">
          <legend>Производители</legend>
            <input type="checkbox" name="items" value="Baxter" id="Baxter" checked>
-           <input type="checkbox" name="items" value="Mrnatty" id="Mrnatty">
-           <input type="checkbox" name="items" value="Suavecito" id="Suavecito" checked>
-           <input type="checkbox" name="items" value="Malin" id="Malin">
-           <input type="checkbox" name="items" value="Murrays" id="Murrays">
-           <input type="checkbox" name="items" value="American" id="American" checked>
            <label for="Baxter">Baxter of california</label>
+           <input type="checkbox" name="items" value="Mrnatty" id="Mrnatty">
            <label for="Mrnatty">Mr NATTY</label>
+           <input type="checkbox" name="items" value="Suavecito" id="Suavecito" checked>
+           <label for="Malin">SUAVECITO</label>
+           <input type="checkbox" name="items" value="Malin" id="Malin">
            <label for="Malin">MALIN+GOETZ</label>
-           <label for="Murrays">MURRAY'S</label>
+           <input type="checkbox" name="items" value="Murrays" id="Murrays">
+            <label for="Murrays">MURRAY'S</label>
+           <input type="checkbox" name="items" value="American" id="American" checked>
            <label for="American">AMERICAN CREW</label>
          </fieldset>
          <fieldset class="content-product">
           <legend>Группы товаров</legend>
            <input type="radio" name="product" value="Shave" id="Shave">
-           <input type="radio" name="product" value="Care" id="Care" checked>
-           <input type="radio" name="product" value="Accessories" id="Accessories">
            <label for="Shave">Бритвенные принадлежности</label>
+           <input type="radio" name="product" value="Care" id="Care" checked>
            <label for="Care">Средства для ухода</label>
+           <input type="radio" name="product" value="Accessories" id="Accessories">
            <label for="Accessories">Аксессуары</label>
          </fieldset>
         </form>
@@ -81,7 +84,7 @@
      <div class="product">
        <article class="product-item">
        	<div class="product-image">
-       	  <img src="http://placehold.it/150x100">
+       	  <img src="img/set-baxter.jpg" width="220" height="165" alt="Baxter">
        	</div>
        	 <p>Набор для путешествий "BAXTER OF CALIFORNIA"</p>
        	<div class="price">2 900 РУБ.
@@ -90,7 +93,7 @@
        </article>
        <article class="product-item">
        	<div class="product-image">
-       	  <img src="http://placehold.it/150x100">
+       	  <img src="img/conditioner-baxter.jpg" width="220" height="165" alt="Baxter">
        	</div>
        	 <p>Увлажняющий кондиционер "BAXTER OF CALIFORNIA"</p>
        	<div class="price">750 РУБ.
@@ -99,7 +102,7 @@
        </article>
        <article class="product-item">
        	<div class="product-image">
-       	  <img src="http://placehold.it/150x100">
+       	  <img src="img/gel-suavecito.jpg" width="220" height="165" alt="Suavecito">
        	</div>
        	 <p>Гель для волос "SUAVECITO</p>
        	<div class="price">290 РУБ.
@@ -108,7 +111,7 @@
        </article>
        <article class="product-item">
        	<div class="product-image">
-       	  <img src="http://placehold.it/150x100">
+       	  <img src="img/clay-american.jpg" width="220" height="165" alt="American">
        	</div>
        	 <p>Глина для укладки волос "AMERICAN CREW"</p>
        	<div class="price">500 РУБ.
@@ -117,7 +120,7 @@
        </article>
        <article class="product-item">
        	<div class="product-image">
-       	  <img src="http://placehold.it/150x100">
+       	  <img src="img/gel-american.jpg" width="220" height="165" alt="American">
        	</div>
        	 <p>Гель для волос "AMERICAN CREW"</p>
        	<div class="price">300 РУБ.
@@ -126,7 +129,7 @@
        </article>
        <article class="product-item">
        	<div class="product-image">
-       	  <img src="http://placehold.it/150x100">
+       	  <img src="img/shave-baxter.jpg" width="220" height="165" alt="Baxter">
        	</div>
        	 <p>Набор для бритья "BAXTER OF CALIFORNIA"</p>
         <div class="price">3 900 РУБ.
@@ -151,9 +154,9 @@
         </section>
         <section class="footer-social">
           <p>Давайте дружить!</p>
-          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          <a class="social-btn social-btn-vk" href="#"><img src="img/vk.png" width="25" height="16" alt="Вкотакте"></a>
+          <a class="social-btn social-btn-fb" href="#"><img src="img/facebook.png" width="12" height="22" alt="Фейсбук"></a>
+          <a class="social-btn social-btn-inst" href="#"><img src="img/instagram.png" width="21" height="21" alt="Инстаграм"></a>
         </section>
         <section class="footer-copyright">
           <p>Разработано:</p>

@@ -3,8 +3,6 @@
 }
 
 body {
-	margin:0px;
-	padding: 0px;
 	font-family: PT Sans Narrow;
 	color: #000000;
 	font-weight: normal;
@@ -94,18 +92,22 @@ body {
 .product {
 	min-height: 592px;
 	margin: 0;
+	overflow: hidden;
+	font-size: 0px;
 	outline: 1px solid #d46eff;
 }
+
 .product-item {
 	display: inline-block;
 	width: 220px;
 	min-height: 286px;
 	vertical-align: top;
+	font-size: 14px;
 	outline: 1px solid #003cff;
 }
+
 .page-number {
-	padding-top: 45px;
-	padding-left: 240px;
+	padding: 45px 240px 49px;
     outline: 1px solid #66cf4e;
 }
 
@@ -138,7 +140,7 @@ body {
 
 .set-annotation {
 	width: 400px;
-height: 668px;
+    height: 668px;
 	float: right;
 	outline: 1px solid #6e0a87;
 }
@@ -146,11 +148,10 @@ height: 668px;
 .exposition-up {
     width: 400px;
     min-height: 364px;
-    padding-top: 21px;
-    padding-left: 10px;
+    padding: 0px 10px;
     outline: 1px solid #897bbc;
 }
-/*я задала родителю .exposition-up падинг сверху,но все равно надо убирать маргин у p? */
+
 .exposition-up p {
 	margin: 0px;
 }
@@ -158,8 +159,7 @@ height: 668px;
 .exposition-down {
 	width: 400px;
 	min-height: 305px;
-	padding-top: 0;
-	padding-left: 10px;
+	padding: 0 10px;
 	outline: 1px solid #458763;
 }
     
